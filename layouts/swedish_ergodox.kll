@@ -1,0 +1,21 @@
+Name = Swedish Ergodox layout;
+Version = 0.1;
+Author = "Niklas Mähler";
+KLL = 0.3c;
+
+# Modified Date
+Date = 2016-04-24;
+
+# At the moment, this is tested and works with a US layout on Mac.
+
+# Single quote and asterisk
+U"Function1" : U"Backslash";
+# Move minus to same location as the US layout
+U"Slash" : U"Minus";
+U"Minus" : U"Slash";
+
+# Å
+U"RBrace" : U"LBrace";
+U"LBrace" : U"RBrace";
+
+U"Up" : U"LShift" + U"LCtrl" + U"9", layerLock(3) + LCDLayerDisplay();

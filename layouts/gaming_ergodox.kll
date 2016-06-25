@@ -1,0 +1,18 @@
+Name = Ergodox gaming layout;
+Version = 0.1;
+Author = "Niklas Mähler";
+KLL = 0.3c;
+
+# Modified Date
+Date = 2016-05-06;
+
+# Thumb cluster
+U"Backspace" : U"Space";
+U"Function2" : U"Enter";
+U"End" : U"LGui";
+
+# Bottom row
+U"LGui" : U"LCtrl";
+U"Function5" : U"LCtrl";
+
+U"Tab" : U"Function6";
